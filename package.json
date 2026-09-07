@@ -1,0 +1,32 @@
+{
+  "name": "enda-primsa-app",
+  "version": "1.0.0",
+  "description": "WhatsApp Business application for Enda Primsa Market - Automated messaging and product catalog",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": ["whatsapp", "business", "chatbot", "catalog", "marketplace"],
+  "author": "Enda Primsa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.1",
+    "eslint": "^8.44.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
